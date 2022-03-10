@@ -38,7 +38,7 @@ describe('task management' , () => {
         const app = new App(new InMemoryTaskStorage())
         app.addTask('tondre') 
         app.moveDoneTask('tondre')
-        expect(app.getDoneList()[0]).toEqual({title :'tondre',status :'done'})  
+        expect(app.getDoneTasks()[0]).toEqual({title :'tondre',status :'done'})  
     })
     it ('done task is not on pending list' , () => {
         const app = new App(new InMemoryTaskStorage())

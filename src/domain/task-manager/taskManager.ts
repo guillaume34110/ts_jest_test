@@ -62,7 +62,7 @@ export class App {
         this.orderAlphabetically(this.doneTasks)
     }
 
-    getDoneList() {
+    getDoneTasks() {
         return this.doneTasks
     }
 
