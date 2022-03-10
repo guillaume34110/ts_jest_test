@@ -92,4 +92,7 @@ describe('task management' , () => {
 
 => adapter implémentation persitence avec InMemory  alphetically
 => persistance asynchronous "V"
+
+=> supression de l'array tasks "V" 
+=> minimised sorting "V"
 */
